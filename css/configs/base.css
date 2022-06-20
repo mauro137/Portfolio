@@ -1,0 +1,9 @@
+body , html {
+background-color: #E5E5E5;
+ width: 100%;
+ 
+}
+body{
+  min-height: 100vh;
+ 
+}

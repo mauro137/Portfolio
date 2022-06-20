@@ -1,0 +1,19 @@
+.header__logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 15%;
+  height: 100%;
+  background: url("/css/header/recursos-header/bandera_argentina.png") no-repeat;
+  background-size: contain;
+}
+.autor{
+    cursor: default;
+    text-align: center;
+    padding-bottom: .5rem;
+    font-family: 'Poppins', sans-serif;
+    align-self: center;
+    margin-left: 10rem;
+    font-size: 1.8rem;
+    letter-spacing: 0.1cm;
+}
