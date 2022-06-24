@@ -10,6 +10,8 @@
     "experiencia"
     "contacto";
   gap: 1rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .section__boxes {
@@ -17,5 +19,9 @@
   margin-left: 9.5rem;
   border: 2px solid black;
   width: 100%;
-  height:400px;
+  height: 400px;
+}
+
+.section__boxes:nth-child(Even) {
+  background-color: #84b6f4;
 }

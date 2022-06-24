@@ -1,3 +1,10 @@
-.main__sobre-mi{
-    grid-area: sobre-mi;
+.main__sobre-mi {
+  grid-area: sobre-mi;
+}
+.contenido__sobre-mi{
+    display: flex;
+    flex-direction: column;
+    width: 1136px;
+    border: 2px solid black;
+    justify-content: space-around;
 }
