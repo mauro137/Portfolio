@@ -34,6 +34,13 @@ h3{
   font-weight: 700;
 }
 
+h4{
+  font-family: "Charis SIL", serif;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: .5em;
+}
+
 span{
   font-family: "Montserrat", sans-serif;
  
