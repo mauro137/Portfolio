@@ -1,4 +1,5 @@
 .main__skills-y-hobbies {
+  grid-area: skills-y-hobbies;
   display: flex;
   flex-direction: column;
   height: 550px;

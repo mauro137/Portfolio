@@ -1,6 +1,52 @@
-.main__experiencia-profesional {
+.main__experiencia__profesional {
+  grid-area: experiencia;
   display: flex;
   flex-direction: column;
+  height: 1000px;
   align-items: center;
-  gap: 32px;
+  gap: 1rem;
 }
+
+.exp__box {
+  display: flex;
+  flex-flow: row wrap;
+  height: 700px;
+  border: 1px solid salmon;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.ahorcado__enlace__box {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  height: 50%;
+  border: 1px solid chocolate;
+  align-self: center;
+  align-items: center;
+  justify-content: space-around;
+  gap: 0.5em;
+}
+
+.enlace__botones {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.enlace__botones-boton {
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+  width: 100px;
+  padding: 1rem;
+  background-color: #84b6f4;
+}
+
+.proyecto-descripcion {
+  text-align: center;
+}
+

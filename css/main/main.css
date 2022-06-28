@@ -7,8 +7,7 @@
     "sobre-mi"
     "skills-y-hobbies"
     "formacion-academica"
-    "experiencia"
-    "contacto";
+    "experiencia";
   gap: 1rem;
   justify-content: center;
   align-items: center;
@@ -24,5 +23,4 @@
 
 .section__boxes:nth-child(Even) {
   background-color: #84b6f4;
-  
 }
