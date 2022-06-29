@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/configs/normalize.css" />
+    <link rel="stylesheet" href="css/configs/normalize.css" />
     <link rel="stylesheet" href="css/configs/reset.css" />
     <link rel="stylesheet" href="css/configs/base.css" />
     <link rel="stylesheet" href="css/header/header.css" />
@@ -22,7 +22,8 @@
       href="css/main/formacion-academica/main-formacion-academica.css"
     />
     <link rel="stylesheet" href="css/main/experiencia/main-experiencia.css" />
-
+    <link rel="stylesheet" href="css/footer/footer.css">
+    <link rel="stylesheet" href="css/footer/footer_contacto.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -49,12 +50,12 @@
     <header class="header">
       <div class="header__logo"><p class="autor">Mauro Lizarriaga</p></div>
       <ul class="header__nav__items">
-        <li class="nav__item"><a href="#" class="nav__link">Sobre mi</a></li>
-        <li class="nav__item"><a href="#" class="nav__link">Skills</a></li>
-        <li class="nav__item"><a href="#" class="nav__link">Hobbies</a></li>
-        <li class="nav__item"><a href="#" class="nav__link">Formacion</a></li>
-        <li class="nav__item"><a href="#" class="nav__link">Proyectos</a></li>
-        <li class="nav__item"><a href="#" class="nav__link"> Contacto</a></li>
+        <li class="nav__item"><a href="#sobre__mi" class="nav__link">Sobre mi</a></li>
+        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+        <li class="nav__item"><a href="#hobbies" class="nav__link">Hobbies</a></li>
+        <li class="nav__item"><a href="#formacion" class="nav__link">Formacion</a></li>
+        <li class="nav__item"><a href="#proyectos" class="nav__link">Proyectos</a></li>
+        <li class="nav__item"><a href="#contacto" class="nav__link"> Contacto</a></li>
       </ul>
     </header>
     <main class="main">
@@ -78,7 +79,7 @@
         <img class="foto" src="/css/main/introduccion/introduccion-recursos/foto1.jpeg" alt="Foto Mauro Lizarriaga">
         </div>
       </section>
-      <section class="main__sobre-mi section__boxes"> 
+      <section id="sobre__mi" class="main__sobre-mi section__boxes"> 
         <article class="contenido__sobre-mi">
           <h2>SOBRE MI</h2>
           <p></p>
@@ -86,7 +87,7 @@
         </article>
       </section>
       <section class="main__skills-y-hobbies section__boxes">
-        <article class="main__skills-hobbies">
+        <article id="skills" class="main__skills-hobbies">
           <h2>SKILLS</h2>
           <ul class="skills_hobbies-lista"> 
           <li> <figure> <img class="skill_hobbies-vector" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" alt="css3 logo"><figcaption><h4>Css</h4></figcaption></figure> </li>
@@ -96,7 +97,7 @@
           <li> <figure></figure><img class="skill_hobbies-vector" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java logo" > <figcaption><h4>Java</h4></figcaption></figure></li>
         </ul>
         </article>
-        <article class="main__skills-hobbies"> <h2>HOBBIES</h2>
+        <article id="hobbies" class="main__skills-hobbies"> <h2>HOBBIES</h2>
           <ul class="skills_hobbies-lista">
             <li><figure> <img class="skill_hobbies-vector" src="css/main/skills-y-hoobies/skills_hobbies-recursos/hobbies-vectores/ciclismo.png" alt="icono ciclismo"><figcaption><h4>Bicicleta</h4></figcaption> </figure></li>
             <li><figure> <img class="skill_hobbies-vector" src="css/main/skills-y-hoobies/skills_hobbies-recursos//hobbies-vectores/cocinando.png" alt="icono cocinar"><figcaption><h4>Cocinar</h4></figcaption>  </figure></li>
@@ -106,7 +107,7 @@
           </ul>
         </article>
       </section>
-      <section class="main__formacion-academica section__boxes"> 
+      <section id="formacion" class="main__formacion-academica section__boxes"> 
         <h2>FORMACION ACADEMICA</h2>
       <article class="formacion_academica-cursos"> 
       <div class="formacion__contenedor">  <div class="cursos__logo__contenedor"> <figure> <img width="190px" height="155px" src="css/main/formacion-academica/formacion-recursos/logo__CFP.png" alt="logo CFP"> </figure> </div> <h3>Formacion Java - SQL</h3> <span> 2021 - Centro Formacion Profesional 401</span> </div>
@@ -114,7 +115,7 @@
       <div class="formacion__contenedor">  <div class="cursos__logo__contenedor"> <figure> <img src="css/main/formacion-academica/formacion-recursos/logo__alura.svg" alt="logo alura"></figure></div><h3> Desarrollador front end</h3> <span>En curso - Alura Latam - Oracle ONE </span> </div>
       </article>
       </section>
-      <section class="main__experiencia__profesional section__boxes"><h2>Experiencia Profesional</h2>
+      <section id="proyectos" class="main__experiencia__profesional section__boxes"><h2>Experiencia Profesional</h2>
       <article class="exp__box"> <img src="css/main/experiencia/experiencia-recursos/ahorcado_gif.gif" alt="gif juego ahorcado">
       <div class="ahorcado__enlace__box">
         <h3>Juego del ahorcado (html, css, js)</h3>
@@ -129,7 +130,7 @@
       <article class="exp__box">
         <img src="css/main/experiencia/experiencia-recursos/encriptador.png" width="600px" height="400px"  alt="imagen encriptador">
         <div class="ahorcado__enlace__box">
-          <h3>Encriptador de texto (html,css,js)</h3>
+          <h3>Encriptador de texto (html, css, js)</h3>
           <p class="proyecto-descripcion">
             Permite encriptar/desencriptar texto, tambien se puede copiar el texto encriptado al portapapeles. utilice medidas absolutas y relativas para posicionar.
           </p>
@@ -142,7 +143,22 @@
       </section>
     </main>
     <footer class="footer">
-      
+      <section id="contacto" class="footer_contacto">
+        <img class="contacto__imagen" src="css/footer/recursos-footer/telefono.svg" alt="telefono">
+        <form class="contacto__form" action="" method="post" autocomplete="off" spellcheck="false">
+          <div class="form__title">
+          <h2 class="form-titulo">Contacto</h2>
+          <p id="form__txt">  ¿Quieres contactarme? <br> Complete el siguiente formulario y me pondre en contacto con usted lo antes posible</p></div>
+          <input type="text" name="form__nombre" id="form__nombre" class="form__inputs" placeholder="Nombre" maxlength="50" minlength="1">
+          <input type="email" name="form__email" id="form__email" class="form__inputs" placeholder="Email"  maxlength="50" minlength="1">
+          <input type="text" name="form__asunto" id="form__asunto" class="form__inputs" placeholder="Asunto" maxlength="50" minlength="1">
+          <textarea name="form__mensaje" id="form__mensaje" cols="30" rows="7" maxlength="300" minlength="1" placeholder="Mensaje"></textarea>
+          <button disabled type="submit" class="form__btn__enviar">Enviar mensaje</button>
+        </form>
+      </section>
+      <div class="footer__footer">
+        
+      </div>
     </footer>
   </body>
 </html>

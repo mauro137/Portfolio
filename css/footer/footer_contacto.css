@@ -1,0 +1,66 @@
+.footer_contacto {
+  height: 780px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  border: 2px solid orangered;
+  gap: 1rem;
+  background-color: #84b6f4;
+}
+
+.contacto__form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 590px;
+  border: 2px solid black;
+  justify-content: space-between;
+}
+
+#form__txt {
+  font-family: "Charis SIL", serif;
+  font-size: 1.07rem;
+  line-height: 19px;
+  text-align: center;
+}
+.form__title {
+  text-align: center;
+  
+}
+.form-titulo{
+  font-weight: 700;
+  letter-spacing: .1em;
+  font-size: 2.3rem;
+}
+.form__inputs {
+  border: none;
+  height: 56px;
+  border-radius: 4px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+#form__mensaje::placeholder {
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+#form__mensaje {
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.form__btn__enviar {
+  cursor: pointer;
+  font-family: "Charis SIL", serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  border-radius: 3px;
+  border: none;
+  width: 144px;
+  height: 51px;
+  background-color: white;
+  align-self: center;
+}

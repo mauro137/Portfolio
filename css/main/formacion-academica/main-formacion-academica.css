@@ -5,11 +5,9 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-
   align-items: center;
   border: 1px solid black;
 }
-
 .formacion_academica-cursos {
   display: flex;
   flex-direction: row;
@@ -17,19 +15,16 @@
   height: 350px;
   align-items: flex-start;
   justify-content: space-around;
-  
 }
-
-.formacion__contenedor{
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    width: 368px;
-    align-items: flex-start;
-    justify-content: space-evenly;
-    gap: 10px;
+.formacion__contenedor {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 368px;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  gap: 10px;
 }
-
 .cursos__logo__contenedor {
   display: flex;
   gap: 16px;
@@ -39,5 +34,4 @@
   height: 286px;
   justify-content: center;
   align-items: center;
-  
 }
