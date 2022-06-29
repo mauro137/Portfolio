@@ -11,12 +11,12 @@
   font-size: 1.04rem;
   font-weight: bold;
   padding-left: 2em;
+  
 }
 
 .nav__link {
   display: inline-block;
   position: relative;
-  left: 300px;
 }
 
 .nav__link:after {

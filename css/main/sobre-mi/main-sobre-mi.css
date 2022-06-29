@@ -1,9 +1,15 @@
 .main__sobre-mi {
   grid-area: sobre-mi;
+  width: 1440px;
+  
 }
 .contenido__sobre-mi{
+ 
     display: flex;
     flex-direction: column;
     width: 1136px;
     justify-content: space-around;
+ 
+    
+    
 }

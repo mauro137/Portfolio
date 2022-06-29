@@ -82,7 +82,7 @@
       <section id="sobre__mi" class="main__sobre-mi section__boxes"> 
         <article class="contenido__sobre-mi">
           <h2>SOBRE MI</h2>
-          <p></p>
+          <p>asdasdasd</p>
           <img src="css/main/sobre-mi/sobre_mi-recursos/firma_autor.png" width="360px" height="200px" alt="firma autor">
         </article>
       </section>
@@ -142,23 +142,24 @@
       </article>
       </section>
     </main>
-    <footer class="footer">
-      <section id="contacto" class="footer_contacto">
+    <footer class="footer ">
+      <section id="contacto" class="footer_contacto ">
         <img class="contacto__imagen" src="css/footer/recursos-footer/telefono.svg" alt="telefono">
-        <form class="contacto__form" action="" method="post" autocomplete="off" spellcheck="false">
+        <form id="contacto__form" action="" method="post" autocomplete="off" spellcheck="false">
           <div class="form__title">
           <h2 class="form-titulo">Contacto</h2>
           <p id="form__txt">  ¿Quieres contactarme? <br> Complete el siguiente formulario y me pondre en contacto con usted lo antes posible</p></div>
-          <input type="text" name="form__nombre" id="form__nombre" class="form__inputs" placeholder="Nombre" maxlength="50" minlength="1">
-          <input type="email" name="form__email" id="form__email" class="form__inputs" placeholder="Email"  maxlength="50" minlength="1">
-          <input type="text" name="form__asunto" id="form__asunto" class="form__inputs" placeholder="Asunto" maxlength="50" minlength="1">
+          <input type="text" name="form__nombre" id="form__nombre" class="form__inputs" placeholder="Nombre" >
+          <input type="email" name="form__email" id="form__email" class="form__inputs" placeholder="Email"  >
+          <input type="text" name="form__asunto" id="form__asunto" class="form__inputs" placeholder="Asunto"  >
           <textarea name="form__mensaje" id="form__mensaje" cols="30" rows="7" maxlength="300" minlength="1" placeholder="Mensaje"></textarea>
-          <button disabled type="submit" class="form__btn__enviar">Enviar mensaje</button>
+          <button  type="submit" class="form__btn__enviar" disabled>Enviar mensaje</button>
         </form>
       </section>
       <div class="footer__footer">
         
       </div>
     </footer>
+    <script src="javascript/form-contact.js"> </script>
   </body>
 </html>

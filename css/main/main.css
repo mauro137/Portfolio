@@ -9,17 +9,15 @@
     "skills-y-hobbies"
     "formacion-academica"
     "experiencia";
-  gap: 1rem;
   justify-content: center;
   align-items: center;
+  gap: 1rem;
 }
 
 .section__boxes {
   display: flex;
-  margin-left: 9.5rem;
-  border: 2px solid black;
-  width: 100%;
-  height: 400px;
+  width: 1136px;
+  
 }
 
 .section__boxes:nth-child(Even) {

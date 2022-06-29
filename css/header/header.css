@@ -3,8 +3,9 @@
   grid-area: header;
   display: flex;
   justify-content: space-between;
-  margin-right: 9.5rem;
-  margin-left: 9.5rem;
   height: 88px;
+  width: 1136px;
+
+  
 }
 

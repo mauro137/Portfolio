@@ -11,7 +11,6 @@
   display: flex;
   flex-flow: row wrap;
   height: 700px;
-  border: 1px solid salmon;
   width: 100%;
   justify-content: space-evenly;
 }
@@ -21,7 +20,6 @@
   flex-direction: column;
   width: 45%;
   height: 50%;
-  border: 1px solid chocolate;
   align-self: center;
   align-items: center;
   justify-content: space-around;

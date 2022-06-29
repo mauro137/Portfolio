@@ -1,20 +1,22 @@
 .main___introduccion {
+  
   grid-area: introduccion;
-  display: flex;
   flex-flow: row wrap;
   justify-content: flex-start;
   align-items: center;
-  width: 100%;
-  height: 400px;
+  width: 1136px;
+  height: auto;
+  background-color: red;
 }
 
 .introduccion__contenido {
-  width: 60%;
-  height: 100%;
+  width: 1136px;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-around;
+ 
 }
 .lista__redes {
 }
