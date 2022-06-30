@@ -1,6 +1,4 @@
 .main {
-  width: 100%;
-  height: auto;
   display: grid;
   grid-area: main;
   grid-template-areas:
@@ -9,17 +7,12 @@
     "skills-y-hobbies"
     "formacion-academica"
     "experiencia";
-  justify-content: center;
+  justify-items: center;
   align-items: center;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .section__boxes {
   display: flex;
   width: 1136px;
-  
-}
-
-.section__boxes:nth-child(Even) {
-  background-color: #84b6f4;
 }
