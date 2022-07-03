@@ -7,13 +7,18 @@
   width: 1136px;
   gap: 1rem;
 }
-
+input:focus,
+textarea:focus {
+  outline: none !important;
+}
 #contacto__form {
   display: flex;
   flex-direction: column;
   width: 60%;
   height: 700px;
   justify-content: space-between;
+  --elemento__oculto: hidden;
+  --elemento__visible: visible;
 }
 
 #form__txt {
@@ -30,12 +35,14 @@
   letter-spacing: 0.1em;
   font-size: 2.3rem;
 }
+
 .form__inputs {
   border: none;
   height: 56px;
   border-radius: 4px;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
+  width: 100%;
 }
 
 #form__mensaje::placeholder {
@@ -47,6 +54,7 @@
   border: none;
   border-radius: 4px;
   font-weight: 500;
+  width: 100%;
 }
 
 .form__btn__enviar {
@@ -61,9 +69,8 @@
   background-color: white;
   align-self: center;
 }
-#form__nombre::after{
-  content: "maximo 50 caracteres";
-  bottom: 0;
-  position: absolute;
-  display: block;
+
+.formulario__incorrecto {
+  border: 5px solid red;
+  opacity: 1;
 }
