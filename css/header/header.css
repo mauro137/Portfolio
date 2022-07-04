@@ -1,11 +1,12 @@
 .header {
-  align-items: center;
   grid-area: header;
   display: flex;
+  flex-flow: row nowrap;
   justify-content: space-between;
+  
   height: 88px;
   width: 1136px;
+  align-items: center;
 
-  
 }
 

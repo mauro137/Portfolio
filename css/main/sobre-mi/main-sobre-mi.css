@@ -1,9 +1,9 @@
 .main__sobre-mi {
   grid-area: sobre-mi;
-  width: 1440px;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 1440px;
   height: 400px;
   background-color: #84b6f4;
 }
@@ -11,7 +11,7 @@
   display: flex;
   width: 1136px;
   height: 255px;
-  flex-direction: column;
+  flex-flow: column nowrap;
   justify-content: space-around;
   align-items: flex-start;
 }

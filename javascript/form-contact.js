@@ -56,7 +56,6 @@ inputs.forEach((input) => {
   input.addEventListener("blur", validarFormulario);
 });
 
-
 /* controla que los campos esten completos y activa/desactiva el btn de envio de forma dinamica */
 
 formulario.addEventListener("keyup", formControl);
@@ -78,9 +77,13 @@ formulario.addEventListener("submit", (e) => {
   e.preventDefault();
   formulario.reset();
 
-document.querySelector(".form__enviado").classList.add("form__enviado-visible")
+  document
+    .querySelector(".form__enviado")
+    .classList.add("form__enviado-visible");
   setTimeout(() => {
-    document.querySelector(".form__enviado").classList.remove("form__enviado-visible")
+    document
+      .querySelector(".form__enviado")
+      .classList.remove("form__enviado-visible");
   }, 5000);
 
   document.querySelectorAll(".formulario__correcto").forEach((campo_valido) => {

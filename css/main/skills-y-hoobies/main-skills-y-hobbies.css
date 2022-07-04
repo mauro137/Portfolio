@@ -1,24 +1,24 @@
 .main__skills-y-hobbies {
   grid-area: skills-y-hobbies;
-  flex-direction: column;
-  height: 800px;
+  flex-flow: column;
   justify-content: space-around;
+  height: 800px;
 }
 .main__skills-hobbies {
   display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
   text-align: center;
   height: 50%;
-  flex-direction: column;
   width: 100%;
-  justify-content: space-around;
 }
 
 .skills_hobbies-lista {
   display: flex;
-  width: 100%;
-  height: auto;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   justify-content: space-evenly;
+  height: auto; 
+  width: 100%;
 }
 .skill_hobbies-vector {
   width: 60px;

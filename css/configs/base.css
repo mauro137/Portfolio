@@ -1,7 +1,6 @@
 html {
   background-color: #e5e5e5;
 }
-
 body {
   display: grid;
   width: 1440px;
@@ -9,47 +8,45 @@ body {
     "header"
     "main"
     "footer";
-    justify-items: center;
-    gap: 2rem;
+  justify-items: center;
+  gap: 2rem;
 }
+/* Estilos titulos */
+h1 {
+  font: 700 3rem/3rem Charis SIL, serif;
+  text-align: center;
+}
+h2 {
+  font: 500 2rem/3rem Charis SIL, serif;
+}
+
+h3 {
+  font: 700 1.4rem Charis SIL, serif;
+}
+h4 {
+  font: 700 1rem Charis SIL, serif;
+  margin-top: 0.5em;
+}
+
+/* Estilos parrafo y span */
+
+p {
+  font: 1.2rem/1.5rem Montserrat, sans-serif;
+  text-align: justify;
+}
+
+span {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* estilo base enlaces */
 a {
   text-decoration: none;
   color: black;
   letter-spacing: 0.1em;
   font-family: "Charis SIL", serif;
 }
-h1 {
-  font-family: "Charis SIL", serif;
-  font-size: 3rem;
-  font-weight: 700;
-  line-height: 3rem;
-  text-align: center;
-}
-h2 {
-  font-family: "Charis SIL", serif;
-  font-size: 2rem;
-  font-weight: 500;
-  line-height: 3rem;
-}
-p {
-  text-align: justify;
-  line-height: 1.5rem;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.2rem;
-}
-h3 {
-  font-family: "Charis SIL", serif;
-  font-size: 1.4rem;
-  font-weight: 700;
-}
 
-h4 {
-  font-family: "Charis SIL", serif;
-  font-size: 16px;
-  font-weight: 700;
-  margin-top: 0.5em;
-}
-
-span {
-  font-family: "Montserrat", sans-serif;
-}
+/* @media screen and (min-width: 360px) and (max-width: 1024px){
+  
+} */

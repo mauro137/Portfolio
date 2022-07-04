@@ -1,38 +1,38 @@
 .main__experiencia__profesional {
   grid-area: experiencia;
   display: flex;
-  flex-direction: column;
-  height: 1000px;
+  flex-flow: column nowrap;
   align-items: center;
   gap: 1rem;
+  height: 1000px;
 }
 
 .exp__box {
   display: flex;
   flex-flow: row wrap;
+  justify-content: space-evenly;
   height: 700px;
   width: 100%;
-  justify-content: space-evenly;
 }
 
 .ahorcado__enlace__box {
   display: flex;
-  flex-direction: column;
-  width: 45%;
-  height: 50%;
+  flex-flow: column nowrap;
   align-self: center;
   align-items: center;
   justify-content: space-around;
   gap: 0.5em;
+  width: 45%;
+  height: 50%;
 }
 
 .enlace__botones {
   display: flex;
-  flex-direction: row;
-  width: 100%;
-  height: auto;
-  gap: 2rem;
+  flex-flow: row nowrap;
   justify-content: center;
+  gap: 2rem;
+  height: auto;
+  width: 100%;
 }
 
 .enlace__botones-boton {
