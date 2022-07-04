@@ -16,9 +16,6 @@ textarea:focus {
   flex-direction: column;
   width: 60%;
   height: 700px;
-  justify-content: space-between;
-  --elemento__oculto: hidden;
-  --elemento__visible: visible;
 }
 
 #form__txt {
@@ -26,6 +23,7 @@ textarea:focus {
   font-size: 22px;
   line-height: 19px;
   text-align: center;
+  margin-bottom: 1.5rem;
 }
 .form__title {
   text-align: center;
@@ -73,4 +71,40 @@ textarea:focus {
 .formulario__incorrecto {
   border: 5px solid red;
   opacity: 1;
+}
+
+.formulario__correcto {
+  border: 5px solid green;
+  opacity: 1;
+}
+
+#nombre__box {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+.input__error {
+  font-size: 16px;
+  color: red;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  visibility: hidden;
+}
+
+.input__error-mostrar {
+  visibility: visible;
+}
+
+.form__enviado{
+  font-size: 32px;
+  text-align: center;
+  padding-top: 10px;
+  color: green;
+  font-weight: 700;
+  margin-bottom: 5.5rem;  
+  visibility: hidden;
+}
+
+.form__enviado-visible{
+  visibility: visible;
 }

@@ -149,14 +149,20 @@
           <div class="form__title">
           <h2 class="form-titulo">Contacto</h2> </div>
           <p id="form__txt">  ¿Quieres contactarme? <br> Complete el siguiente formulario y me pondre en contacto con usted lo antes posible</p></div>
+          <div id="nombre__grupo"> 
           <div id="nombre__box"> 
-          <input type="text" name="form__nombre" id="form__nombre" class="form__inputs" placeholder="Nombre" ></div>
-          <div id="email__box">    <input type="text" name="form__email" id="form__email" class="form__inputs" placeholder="Email"  ></div>
-          <div id="asunto__box">  <input type="text" name="form__asunto" id="form__asunto" class="form__inputs" placeholder="Asunto"  ></div>
-          <div id="mensaje__box">     <textarea name="form__mensaje" id="form__mensaje" cols="30" rows="7" maxlength="300" minlength="1" placeholder="Mensaje"></textarea> </div>
+          <input type="text" name="form__nombre" id="form__nombre" class="form__inputs" placeholder="Nombre" >  
+          </div>        <p class="input__error"> campo obligatorio, solo letras, maximo 50 caracteres<p>   </div>
+          <div id="email__grupo"> 
+            <div id="email__box"> <input type="text" name="form__email" id="form__email" class="form__inputs" placeholder="Email"> </div>  <p class="input__error"> campo obligatorio, maximo 50 caracteres</p> 
+              </div><div id="asunto__grupo"> 
+          <div id="asunto__box">  <input type="text" name="form__asunto" id="form__asunto" class="form__inputs" placeholder="Asunto"> </div> <p class="input__error"> campo obligatorio, maximo 50 caracteres</p></div><div id="mensaje__grupo"> 
+          <div id="mensaje__box">  <textarea name="form__mensaje" id="form__mensaje" cols="30" rows="7" placeholder="Mensaje"></textarea>   </div> <p class="input__error"> campo obligatorio, maximo 300 caracteres</p></div>
           <button type="submit" class="form__btn__enviar" >Enviar mensaje</button>
+          
         </form>
-      </section>
+      </section>  
+      <p class="form__enviado"> FORMULARIO ENVIADO EXITOSAMENTE </p>
       <div class="footer__footer">
         <p>Desarrollado por Mauro Lizarriaga</p>
       </div>
