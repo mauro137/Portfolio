@@ -20,11 +20,10 @@
   flex-flow: column nowrap;
   align-self: center;
   align-items: center;
-  justify-content: space-around;
   gap: 0.5em;
-  width: 45%;
-  height: 50%;
-  
+  text-align: center;
+  width: 30%;
+  min-width: 450px;
 }
 
 .enlace__botones {
@@ -47,3 +46,8 @@
   text-align: center;
 }
 
+#gif__ahorcado {
+  width: 30%;
+  min-width: 450px;
+  height: 30%;
+}

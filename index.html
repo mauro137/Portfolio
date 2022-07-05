@@ -84,7 +84,7 @@
       <section id="sobre__mi" class="main__sobre-mi"> 
         <article class="sobre__mi__box"> 
           <h2>SOBRE MI</h2>
-          <p style="width: 50%">Apasionado por la tecnologia en general, me gustan mucho los deportes en equipos, me considero una persona competitiva, perfeccionista y sociable. en el pasado estudie informatica pero no en el area de programacion, tuve trabajos en otras areas, en finales de 2020 descrubri que la programacion me gusta mucho y quiero dedicarme a esto. estoy en busca de mi primer empleo it mientras continuo perfeccionando y aprediendo nuevas tecnologias. </p>
+          <p  id="txt__sobre-mi" >Apasionado por la tecnologia en general, me gustan mucho los deportes en equipos, me considero una persona competitiva, perfeccionista y sociable. en el pasado estudie informatica pero no en el area de programacion, tuve trabajos en otras areas, en finales de 2020 descrubri que la programacion me gusta mucho y quiero dedicarme a esto. estoy en busca de mi primer empleo it mientras continuo perfeccionando y aprediendo nuevas tecnologias. </p>
           <img src="css/main/sobre-mi/sobre_mi-recursos/firma_autor.png" width="350px" height="auto" alt="firma autor">  
         </article>  </section>
       <section class="main__skills-y-hobbies">
@@ -98,8 +98,10 @@
           <li> <figure><img class="skill_hobbies-vector" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java logo" > <figcaption><h4>Java</h4></figcaption></figure></li>
         </ul>
         </article>
-        <article id="hobbies" class="main__skills-hobbies"> <h2>HOBBIES</h2>
-          <ul class="skills_hobbies-lista">
+        
+        <article id="hobbies" class="main__skills-hobbies"> 
+          <h2>HOBBIES</h2>
+          <ul class="skills_hobbies-lista">    
             <li><figure> <img class="skill_hobbies-vector" src="css/main/skills-y-hoobies/skills_hobbies-recursos/hobbies-vectores/ciclismo.png" alt="icono ciclismo"><figcaption><h4>Bicicleta</h4></figcaption> </figure></li>
             <li><figure> <img class="skill_hobbies-vector" src="css/main/skills-y-hoobies/skills_hobbies-recursos//hobbies-vectores/cocinando.png" alt="icono cocinar"><figcaption><h4>Cocinar</h4></figcaption>  </figure></li>
             <li><figure> <img class="skill_hobbies-vector" src="css/main/skills-y-hoobies/skills_hobbies-recursos//hobbies-vectores/control-del-juego.png" alt="icono gaming control"><figcaption><h4>Gaming</h4></figcaption> </figure></li>
@@ -117,7 +119,7 @@
       </article>
       </section>
       <section id="proyectos" class="main__experiencia__profesional"><h2>Experiencia Profesional</h2>
-      <article class="exp__box"> <img src="css/main/experiencia/experiencia-recursos/ahorcado_gif.gif" alt="gif juego ahorcado">
+      <article class="exp__box"> <img id="gif__ahorcado" src="css/main/experiencia/experiencia-recursos/ahorcado_gif.gif" alt="gif juego ahorcado">
       <div class="ahorcado__enlace__box">
         <h3>Juego del ahorcado (html, css, js)</h3>
         <p class="proyecto-descripcion">Desafio de Oracle, tradicional juego del ahorcado , posicionamiento con flexbox, regex para validar letras y palabras ingresadas y local storage para guardar las mismas en la lista de palabras a sortear.
@@ -129,7 +131,7 @@
       </div>
       </article>
       <article class="exp__box">
-        <img src="css/main/experiencia/experiencia-recursos/encriptador.png" width="600px" height="400px"  alt="imagen encriptador">
+        <img id="img__encriptador" src="css/main/experiencia/experiencia-recursos/encriptador.png" width="30%" style="min-width: 450px;" alt="imagen encriptador">
         <div class="ahorcado__enlace__box">
           <h3>Encriptador de texto (html, css, js)</h3>
           <p class="proyecto-descripcion">
@@ -164,7 +166,7 @@
       </section>  
       <p class="form__enviado"> FORMULARIO ENVIADO EXITOSAMENTE </p>
       <div class="footer__footer">
-        <p>Desarrollado por Mauro Lizarriaga</p>
+        <p id="footer__txt">Desarrollado por Mauro Lizarriaga</p>
       </div>
     </footer>
     <script src="javascript/form-contact.js"> </script>

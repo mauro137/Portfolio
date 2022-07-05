@@ -4,7 +4,6 @@
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
-  height: auto;
   width: 78.9%;
 }
 
@@ -12,9 +11,10 @@
   display: flex;
   flex-flow: column nowrap;
   align-items: flex-start;
-  gap: 1.5rem;
-  width: 750px;
-  height: auto;
+  gap: 1.8rem;
+  width: 80%;
+  justify-content: space-between;
+  min-width: 450px;
 }
 .lista__redes {
 }
@@ -39,11 +39,12 @@
   align-items: center;
   justify-content: flex-end;
   width: 20%;
-  height: auto;
+  min-width: 200px;
 }
 .foto {
+  width: 100%;
   border-radius: 35%;
-  height: 300px;
+  
   -webkit-border-radius: 35%;
   -moz-border-radius: 35%;
   -ms-border-radius: 35%;

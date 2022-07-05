@@ -1,15 +1,30 @@
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-    .nav__item:not(:last-child) {
-      visibility: hidden;
-      
-    }
-    .skills_hobbies-lista{
-      flex-flow: column wrap;
-      align-items: center;
-      
-    }
+@media screen and (min-width: 576px) and (max-width: 1000px) {
+  .nav__item:not(:last-child) {
+    visibility: hidden;
   }
-  
-  @media screen and (min-width: 360px) and (max-width: 768px) {
-  } ;
-  
+
+  .skills_hobbies-lista {
+    flex-wrap: wrap;
+  }
+  .contacto__imagen {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .skills_hobbies-lista {
+    flex-flow: column nowrap;
+    width: 15%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    align-self: center;
+  }
+  .contacto__imagen {
+    display: none;
+  }
+  .main__introduccion{
+    flex-flow: row wrap;
+   
+  }
+} ;
