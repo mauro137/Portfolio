@@ -3,9 +3,9 @@
   justify-content: center;
   align-items: center;
   flex-flow: row nowrap;
-  height: 1000px;
-  width: 1136px;
   gap: 1rem;
+  padding-top: 4em;
+  width: 78.9%;
 }
 input:focus,
 textarea:focus {
@@ -15,7 +15,6 @@ textarea:focus {
   display: flex;
   flex-flow: column nowrap;
   flex-basis: 100%;   /* probando */
-  height: 700px;
 }
 
 #form__txt {
@@ -54,11 +53,11 @@ textarea:focus {
   letter-spacing: 1px;
   border-radius: 3px;
   border: none;
-  width: 144px;
-  height: 51px;
   align-self: center;
   background-color: white;
   cursor: pointer; 
+  width: 144px;
+  height: 51px;
 }
 
 .formulario__incorrecto {
@@ -74,7 +73,6 @@ textarea:focus {
 #nombre__box {
   display: flex;
   flex-direction: column;
-  height: auto;
 }
 .input__error {
   font: bold 1rem Charis SIL, serif;

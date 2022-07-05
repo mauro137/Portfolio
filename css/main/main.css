@@ -10,9 +10,6 @@
   justify-items: center;
   align-items: center;
   gap: 2rem;
+  width: 100%;
 }
 
-.section__boxes {
-  display: flex;
-  width: 1136px;
-}

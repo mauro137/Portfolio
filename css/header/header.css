@@ -3,9 +3,8 @@
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-  
   height: 88px;
-  width: 1136px;
+  width: 78.9%;
   align-items: center;
 
 }

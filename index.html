@@ -24,7 +24,6 @@
     <link rel="stylesheet" href="css/main/experiencia/main-experiencia.css" />
     <link rel="stylesheet" href="css/footer/footer.css">
     <link rel="stylesheet" href="css/footer/footer_contacto.css">
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -43,7 +42,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-
+    <link rel="stylesheet" href="css/configs/responsive.css">
     <title>Portfolio de Mauro Lizarriaga</title>
   </head>
   <body>
@@ -62,7 +61,7 @@
       </ul>
     </header>
     <main class="main">
-      <section class="main__introduccion section__boxes">
+      <section class="main__introduccion">
         <article class="introduccion__contenido">
           <h1>Estudiante de programación</h1>
           <p>
@@ -82,21 +81,21 @@
         <img class="foto" src="/css/main/introduccion/introduccion-recursos/foto1.jpeg" alt="Foto Mauro Lizarriaga">
         </div>
       </section>
-      <section id="sobre__mi" class="main__sobre-mi section__boxes"> 
+      <section id="sobre__mi" class="main__sobre-mi"> 
         <article class="sobre__mi__box"> 
           <h2>SOBRE MI</h2>
-          <p>Apasionado por la tecnologia en general, me gustan mucho los deportes en equipos, me considero una persona competitiva, perfeccionista y sociable. en el pasado estudie informatica pero no en el area de programacion, tuve trabajos en otras areas, en finales de 2020 descrubri que la programacion me gusta mucho y quiero dedicarme a esto. estoy en busca de mi primer empleo it mientras continuo perfeccionando y aprediendo nuevas tecnologias. </p>
-          <img src="css/main/sobre-mi/sobre_mi-recursos/firma_autor.png" width="360px" height="200px" alt="firma autor">  
+          <p style="width: 50%">Apasionado por la tecnologia en general, me gustan mucho los deportes en equipos, me considero una persona competitiva, perfeccionista y sociable. en el pasado estudie informatica pero no en el area de programacion, tuve trabajos en otras areas, en finales de 2020 descrubri que la programacion me gusta mucho y quiero dedicarme a esto. estoy en busca de mi primer empleo it mientras continuo perfeccionando y aprediendo nuevas tecnologias. </p>
+          <img src="css/main/sobre-mi/sobre_mi-recursos/firma_autor.png" width="350px" height="auto" alt="firma autor">  
         </article>  </section>
-      <section class="main__skills-y-hobbies section__boxes">
+      <section class="main__skills-y-hobbies">
         <article id="skills" class="main__skills-hobbies">
           <h2>SKILLS</h2>
           <ul class="skills_hobbies-lista"> 
-          <li> <figure> <img class="skill_hobbies-vector" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" alt="css3 logo"><figcaption><h4>Css</h4></figcaption></figure> </li>
-          <li> <figure></figure><img class="skill_hobbies-vector" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" alt="html5 logo"><figcaption><h4>Html</h4></figcaption> </figure></li>
-          <li> <figure></figure><img class="skill_hobbies-vector" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript logo"><figcaption><h4>Javascript</h4></figcaption> </figure></li>
-          <li> <figure></figure><img class="skill_hobbies-vector" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="mySQL logo"><figcaption><h4>MySQL</h4></figcaption> </figure></li>
-          <li> <figure></figure><img class="skill_hobbies-vector" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java logo" > <figcaption><h4>Java</h4></figcaption></figure></li>
+          <li> <figure><img class="skill_hobbies-vector" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" alt="css3 logo"><figcaption><h4>Css</h4></figcaption></figure> </li>
+          <li> <figure><img class="skill_hobbies-vector" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" alt="html5 logo"><figcaption><h4>Html</h4></figcaption> </figure></li>
+          <li> <figure><img class="skill_hobbies-vector" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript logo"><figcaption><h4>Javascript</h4></figcaption> </figure></li>
+          <li> <figure><img class="skill_hobbies-vector" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="mySQL logo"><figcaption><h4>MySQL</h4></figcaption> </figure></li>
+          <li> <figure><img class="skill_hobbies-vector" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java logo" > <figcaption><h4>Java</h4></figcaption></figure></li>
         </ul>
         </article>
         <article id="hobbies" class="main__skills-hobbies"> <h2>HOBBIES</h2>
@@ -109,15 +108,15 @@
           </ul>
         </article>
       </section>
-      <section id="formacion" class="main__formacion-academica section__boxes"> 
-        <h2>FORMACION ACADEMICA</h2>
+      <section id="formacion" class="main__formacion-academica"> 
+        <h2 style="margin-top: 2em;">FORMACION ACADEMICA</h2>
       <article class="formacion_academica-cursos"> 
       <div class="formacion__contenedor">  <div class="cursos__logo__contenedor"> <figure> <img width="190px" height="155px" src="css/main/formacion-academica/formacion-recursos/logo__CFP.png" alt="logo CFP"> </figure> </div> <h3>Formacion Java - SQL</h3> <span> 2021 - Centro Formacion Profesional 401</span> </div>
       <div class="formacion__contenedor"> <div class="cursos__logo__contenedor"> <figure> <img width="190px" height="155px" src="css/main/formacion-academica/formacion-recursos/logo__CFP.png" alt="logo CFP"></figure> </div> <h3>Desarrolador front end </h3> <span>En curso - Centro Formacion Profesional 401</span> </div>
       <div class="formacion__contenedor">  <div class="cursos__logo__contenedor"> <figure> <img src="css/main/formacion-academica/formacion-recursos/logo__alura.svg" alt="logo alura"></figure></div><h3> Desarrollador front end</h3> <span>En curso - Alura Latam - Oracle ONE </span> </div>
       </article>
       </section>
-      <section id="proyectos" class="main__experiencia__profesional section__boxes"><h2>Experiencia Profesional</h2>
+      <section id="proyectos" class="main__experiencia__profesional"><h2>Experiencia Profesional</h2>
       <article class="exp__box"> <img src="css/main/experiencia/experiencia-recursos/ahorcado_gif.gif" alt="gif juego ahorcado">
       <div class="ahorcado__enlace__box">
         <h3>Juego del ahorcado (html, css, js)</h3>

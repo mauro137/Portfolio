@@ -3,15 +3,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 1440px;
-  height: 400px;
+  gap: 1rem;
   background-color: #84b6f4;
+  width: 100%;
+  height: auto;
 }
 .sobre__mi__box {
   display: flex;
-  width: 1136px;
-  height: 255px;
   flex-flow: column nowrap;
-  justify-content: space-around;
   align-items: flex-start;
+  gap: 16px;
+  width: 78.9%;
+  height: auto;
 }
+

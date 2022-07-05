@@ -1,9 +1,11 @@
 html {
   background-color: #e5e5e5;
+  min-width: 360px;
+  max-width: 2080px;
+  width: 100vw;
 }
 body {
   display: grid;
-  width: 1440px;
   grid-template-areas:
     "header"
     "main"
@@ -47,6 +49,3 @@ a {
   font-family: "Charis SIL", serif;
 }
 
-/* @media screen and (min-width: 360px) and (max-width: 1024px){
-  
-} */

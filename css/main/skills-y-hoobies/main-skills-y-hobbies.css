@@ -1,7 +1,10 @@
 .main__skills-y-hobbies {
   grid-area: skills-y-hobbies;
+  display: flex;
   flex-flow: column;
   justify-content: space-around;
+  align-items: center;
+  width: 100%;
   height: 800px;
 }
 .main__skills-hobbies {
@@ -10,15 +13,14 @@
   justify-content: space-around;
   text-align: center;
   height: 50%;
-  width: 100%;
+  width: 78.9%;
 }
 
 .skills_hobbies-lista {
   display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-evenly;
+  flex-flow: row wrap;
+  justify-content: space-around;
   height: auto; 
-  width: 100%;
 }
 .skill_hobbies-vector {
   width: 60px;
