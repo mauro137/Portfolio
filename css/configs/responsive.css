@@ -12,6 +12,10 @@
 }
 
 @media screen and (max-width: 575px) {
+  .nav__item:not(:last-child) {
+    visibility: hidden;
+  }
+
   .skills_hobbies-lista {
     flex-flow: column nowrap;
     width: 15%;

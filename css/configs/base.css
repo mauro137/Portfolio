@@ -1,8 +1,5 @@
 html {
   background-color: #e5e5e5;
-  min-width: 360px;
-  
-  width: 100vw;
 }
 body {
   display: grid;
@@ -12,6 +9,7 @@ body {
     "footer";
   justify-items: center;
   gap: 2rem;
+  min-width: 360px;
 }
 /* Estilos titulos */
 h1 {
