@@ -17,6 +17,13 @@ const expresiones = {
   mensaje: /^([A-Za-z0-9!#%$+-?=*&".,]){1,300}$/,
 };
 
+const campos = {
+  nombre: false,
+  email: false,
+  asunto: false,
+  mensaje: false,
+};
+
 const validarFormulario = (e) => {
   switch (e.target.name) {
     case "form__nombre":
@@ -42,10 +49,12 @@ const validarCampo = (expresion, input, campo) => {
     campoBox.classList.remove("formulario__incorrecto");
     grupoBox.classList.remove("input__error-mostrar");
     campoBox.classList.add("formulario__correcto");
+    campos[campo] = true;
   } else {
     campoBox.classList.remove("formulario__correcto");
     grupoBox.classList.add("input__error-mostrar");
     campoBox.classList.add("formulario__incorrecto");
+    campos[campo] = false;
   }
 };
 textarea.addEventListener("keyup", validarFormulario);
@@ -75,18 +84,25 @@ function formControl() {
 /* reset del formulario y los estilos*/
 formulario.addEventListener("submit", (e) => {
   e.preventDefault();
-  formulario.reset();
-
-  document
-    .querySelector(".form__enviado")
-    .classList.add("form__enviado-visible");
-  setTimeout(() => {
+  if (campos.nombre && campos.email && campos.asunto && campos.mensaje) {
+    formulario.reset();
+    formControl();
     document
       .querySelector(".form__enviado")
-      .classList.remove("form__enviado-visible");
-  }, 5000);
+      .classList.add("form__enviado-visible");
 
-  document.querySelectorAll(".formulario__correcto").forEach((campo_valido) => {
-    campo_valido.classList.remove("formulario__correcto");
-  });
+    setTimeout(() => {
+      document
+        .querySelector(".form__enviado")
+        .classList.remove("form__enviado-visible");
+    }, 5000);
+
+    document
+      .querySelectorAll(".formulario__correcto")
+      .forEach((campo_valido) => {
+        campo_valido.classList.remove("formulario__correcto");
+      });
+  } else {
+    alert("completa bien los datos");
+  }
 });

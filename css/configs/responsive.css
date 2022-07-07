@@ -29,11 +29,9 @@
   }
   .main__introduccion{
     flex-flow: row wrap;
-   
   }
   .introduccion__caja__foto{
     order: -1;
     
   }
- 
 } ;
