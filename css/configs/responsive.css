@@ -27,11 +27,13 @@
   .contacto__imagen {
     display: none;
   }
-  .main__introduccion{
-    flex-flow: row wrap;
+  .main__introduccion {
+    flex-flow: column wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
   }
-  .introduccion__caja__foto{
+  .introduccion__caja__foto {
     order: -1;
-    
   }
 } ;

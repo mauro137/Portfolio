@@ -11,25 +11,30 @@
 .formacion_academica-cursos {
   display: flex;
   flex-flow: row nowrap;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-around;
-  width: 78.9%;
-  
+  width: 100%;
 }
 .formacion__contenedor {
   display: flex;
   flex-flow: column nowrap;
   align-items: flex-start;
-  justify-content: space-evenly;
-  gap: 10px;
-  margin-bottom: 3em;
+  justify-content: center;
+  gap: 10%;
+  margin-bottom: 3rem;
+  
 }
 .cursos__logo__contenedor {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #ffffff;
-  gap: 16px;
-  width: 368px;
-  height: 286px;
+  gap: 10%;
+  width: 20vw;
+  height: 20vh;
+}
+.cursos__logo-item{
+  width: 40%;
+  height: 50%;
+  
 }

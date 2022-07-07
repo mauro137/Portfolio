@@ -12,30 +12,32 @@ body {
   min-width: 360px;
 }
 /* Estilos titulos */
-h1 {
-  font: 700 3rem/3rem Charis SIL, serif;
+.h1 {
+  font-size: 5vmin;
   text-align: center;
+  font-family: "Charis SIL", serif;
+  font-weight: 700;
 }
 h2 {
-  font: 500 2rem/3rem Charis SIL, serif;
+  font: 500 3.5vmin/3rem Charis SIL, serif;
 }
 
 h3 {
-  font: 700 1.4rem Charis SIL, serif;
+  font: 700 2vmin Charis SIL, serif;
 }
 h4 {
-  font: 700 1rem Charis SIL, serif;
+  font: 700 2.2vmin Charis SIL, serif;
   margin-top: 0.5em;
 }
 
 /* Estilos parrafo y span */
 
 p {
-  font: 1.2rem Montserrat, sans-serif;
+  font: 2vmin Montserrat, sans-serif;
   text-align: justify;
   line-height: 1.7em;
   font-weight: 400;
-  width: 65%;
+
 }
 
 span {
@@ -49,4 +51,3 @@ a {
   letter-spacing: 0.1em;
   font-family: "Charis SIL", serif;
 }
-
